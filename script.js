@@ -40,7 +40,7 @@ nextBtn.addEventListener('click', () => {
 // Auto-scroll setup
 let autoScroll;
 const startAutoScroll = () => {
-  autoScroll = setInterval(nextSlide, 8000); // Change slides every 3 seconds
+  autoScroll = setInterval(nextSlide, 10000); // Change slides every 3 seconds
 };
 
 // Start auto-scroll on page load
